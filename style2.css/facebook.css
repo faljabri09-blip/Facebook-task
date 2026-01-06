@@ -1,0 +1,116 @@
+      body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f2f5;
+            
+       
+        }
+
+
+        img {
+          width: 350px;
+          font-size: 20px;
+          color: #1c1e21;
+          display:flex;
+          margin: -15px;
+          margin-bottom: 10px;
+          float: left;
+       }
+
+       .left p{
+        width: 250px;
+        margin: 20px;
+        display: flex;
+       }
+
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 80px;
+        }
+
+        .left {
+            max-width: 330px;
+            margin: -28px;
+        }
+
+       
+       
+        .right {
+            width: 360px;
+        }
+
+        .login-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .login-box input {
+            width: 300px;
+            padding: 14px;
+            margin: 8px 0;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #166fe5;
+        }
+
+        .forgot {
+            display: block;
+            margin: 15px 0;
+            font-size: 14px;
+            color: #1877f2;
+            text-decoration: none;
+        }
+
+        .facebook {
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        .create-btn {
+            background-color: #42b72a;
+            color: white;
+            padding: 12px 16px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .create-btn:hover {
+            background-color: #36a420;
+        }
+
+        .page-text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .page-text a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #000;
+        }
